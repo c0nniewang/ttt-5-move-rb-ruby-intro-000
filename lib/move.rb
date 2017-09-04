@@ -11,4 +11,5 @@ def input_to_index(str)
 end
 
 def move(board, idx, player = "x")
+  board[idx] = player
 end
